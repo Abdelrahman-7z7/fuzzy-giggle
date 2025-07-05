@@ -1,9 +1,11 @@
 {
   "dependencies": {
-    "@supabase/supabase-js": "^2.50.2",
+    "@supabase/supabase-js": "^2.50.3",
     "dotenv": "^17.0.0",
     "express": "^5.1.0",
-    "morgan": "^1.10.0"
+    "express-fileupload": "^1.5.1",
+    "morgan": "^1.10.0",
+    "uuid": "^11.1.0"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/server.ts",
@@ -12,8 +14,10 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/express-fileupload": "^1.5.1",
     "@types/morgan": "^1.9.10",
     "@types/node": "^24.0.7",
+    "@types/uuid": "^10.0.0",
     "cross-env": "^7.0.3",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
