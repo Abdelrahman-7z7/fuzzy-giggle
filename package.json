@@ -1,10 +1,14 @@
 {
   "dependencies": {
+    "@getbrevo/brevo": "^2.5.0",
     "@supabase/supabase-js": "^2.50.3",
     "dotenv": "^17.0.0",
     "express": "^5.1.0",
     "express-fileupload": "^1.5.1",
+    "ioredis": "^5.6.1",
+    "iyzipay": "^2.0.64",
     "morgan": "^1.10.0",
+    "sib-api-v3-sdk": "^8.5.0",
     "uuid": "^11.1.0"
   },
   "scripts": {
@@ -15,8 +19,9 @@
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/express-fileupload": "^1.5.1",
+    "@types/iyzipay": "^2.0.3",
     "@types/morgan": "^1.9.10",
-    "@types/node": "^24.0.7",
+    "@types/node": "^24.0.10",
     "@types/uuid": "^10.0.0",
     "cross-env": "^7.0.3",
     "nodemon": "^3.1.10",
