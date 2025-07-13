@@ -90,7 +90,7 @@ export interface Database {
         Row: {
           id: string;
           payment_id: string | null;
-          provider_session_id: string | null;
+          provider_id: string | null;
           status: 'pending' | 'processing' | 'failed' | 'succeeded';
           error_message: string | null;
           created_at: string | null;
